@@ -2,37 +2,34 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blue {
+  color: blue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: indieFlower;
+  src: url(IndieFlower-Regular.ttf)
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  font-family: indieFlower, Arial, Helvetica, sans-serif;
+  color: lightcyan;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: marker;
+  src: url(PermanentMarker-Regular.ttf)
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-family: marker, Arial, Helvetica, sans-serif;
+  color: lightcyan;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+@font-face {
+  font-family: lobster;
+  src: url(Lobster-Regular.ttf);
+}
+h3 {
+  font-family: lobster, Arial, Helvetica, sans-serif;
+  color: navy;
+  font-size: 40px;
+  text-shadow: 1px 2px 1px grey;
 }
