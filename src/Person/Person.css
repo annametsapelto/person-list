@@ -1,0 +1,14 @@
+.person {
+    width: 400px;
+    font-size: large;
+    border: 2px solid darkgrey;
+    box-shadow: 3px 3px 2px grey;
+    padding: 10px;
+    margin: 10px;
+    background-color: #FFC6FF;
+}
+.person:hover {
+    color: #CC33FF;
+    background-color: #FFB3FF;
+    cursor: pointer;
+}
